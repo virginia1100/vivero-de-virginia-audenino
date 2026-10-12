@@ -1,102 +1,316 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Invernadero del colegio</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El invernadero de nuestro colegio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<header>
-<h1>El invernadero de nuestro colegio</h1>
-<p>Un espacio para aprender, cultivar y cuidar la naturaleza.</p>
-</header>
-<nav>
-    <button onclick="location.href='#invernadero'">El invernadero</button>
-    <button onclick="location.href='#cultivos'">Cultivos</button>
-    <button onclick="location.href='#actividades'">Actividades</button>
-</nav>
-<main>
-    <section id="definicion">
-<h2>Antes que nada, ¿Que es un invernadero?</h2>
-<p>
-El invernadero es un espacio protegido donde se cultivan plantas en condiciones controladas.
-</p>
-<section id="invernadero">
-<h2>¿Qué es nuestro invernadero?</h2>
-<p>
-Nuestro invernadero es un espacio del colegio destinado
-al cultivo de plantas y al aprendizaje sobre la naturaleza.
-</p>
-<img src="imagen1.png"
-alt="Invernadero del colegio">
 
+    <header id="inicio">
+        <h1>El invernadero de nuestro colegio</h1>
+        <p>Un espacio para aprender, cultivar y cuidar la naturaleza.</p>
+        <a class="boton" href="#invernadero">Conocé nuestro invernadero</a>
+    </header>
 
-</section>
-<section id="imagen">
-<h2>Una imagen ejemplo de lo que es un invernadero</h2>
-<p>
-<img src="invernadero2.jpg"
-alt="Aunque no es el invernadero del colegio, es un ejemplo de lo que es un invernadero">
-<p>
-Aunque no es el invernadero del colegio, es un ejemplo de lo que es un invernadero
-</p>
-</section>
+    <nav>
+        <a href="#invernadero">El invernadero</a>
+        <a href="#cultivos">Cultivos</a>
+        <a href="#cuidados">Cuidados</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#conclusion">Conclusión</a>
+    </nav>
 
-</section>
-<section id="cultivos">
+    <main>
 
-<h2>¿Qué cultivamos?</h2>
-<div class="contenedor-plantas">
-<div class="tarjeta">
-<h3>Tomate</h3>
-<p>
-El tomate es una de las plantas que podemos
-cultivar en nuestro invernadero.
-</p>
-</div>
-<div class="tarjeta">
-<h3>Lechuga</h3>
-<p>
-La lechuga necesita cuidados y riego para
-desarrollarse correctamente.
-</p>
-</div>
-<div class="tarjeta">
-<h3>Aromáticas</h3>
-<p>
-Las plantas aromáticas aportan aroma y pueden
-utilizarse en diferentes comidas.
-</p>
-</div>
-</div>
-</section>
-<section id="actividades">
-<h2>Actividades en el invernadero</h2>
-<ul>
-<li>Preparar la tierra.</li>
-<li>Sembrar semillas.</li>
-<li>Regar las plantas.</li>
-<li>Observar su crecimiento.</li>
-<li>Cuidar el espacio.</li>
-</ul>
-</section>
-<section id="gustos">
-<h2>Las cosas que me gustan de este proyecto es</h2>
-<ul>
-<li>Ver cómo crecen las plantas.</li>
-<li>La dedicacion de involucrados como: estudiantes, autoridades</li>
-<li>La colaboración entre los miembros de la comunidad escolar</li>
-<li>La sensibilización sobre la importancia de la naturaleza</li>
-<li>La oportunidad de aprender sobre la agricultura sostenible</li>
-</ul>
-</section>
-</main>
-<footer>
-<p>Invernadero del colegio - Virginia Audenino</p>
-</footer>
+        <section class="bienvenida">
+            <h2>Bienvenidos a nuestro proyecto</h2>
+            <p>
+                El invernadero es un espacio para aprender sobre las plantas,
+                trabajar en equipo y conocer la importancia de cuidar la naturaleza.
+            </p>
+        </section>
+
+        <section id="definicion">
+            <h2>¿Qué es un invernadero?</h2>
+
+            <p>
+                Un invernadero es una estructura cubierta que permite cultivar
+                plantas en un ambiente parcialmente controlado. Ayuda a proteger
+                los cultivos del viento, la lluvia intensa y algunos cambios
+                de temperatura.
+            </p>
+
+            <p>
+                Para que las plantas crezcan correctamente, es importante
+                controlar el riego, la luz, la ventilación y la humedad.
+            </p>
+        </section>
+
+        <section id="invernadero">
+            <h2>¿Qué es nuestro invernadero?</h2>
+
+            <p>
+                Nuestro invernadero es un espacio del colegio destinado
+                al cultivo de plantas y al aprendizaje sobre la naturaleza.
+                Nos permite observar el crecimiento de los cultivos y conocer
+                los cuidados que necesitan.
+            </p>
+
+            <img src="imagen1.png" alt="Invernadero de nuestro colegio">
+
+            <h3>¿Por qué es importante?</h3>
+
+            <div class="contenedor-plantas">
+                <article class="tarjeta">
+                    <h3>Aprendizaje</h3>
+                    <p>
+                        Podemos observar cómo nacen y crecen las plantas
+                        y aprender sobre sus necesidades.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Trabajo en equipo</h3>
+                    <p>
+                        Compartimos tareas y colaboramos para cuidar
+                        un espacio común.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Cuidado de la naturaleza</h3>
+                    <p>
+                        Aprendemos la importancia del agua, el suelo
+                        y los seres vivos.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="ejemplo">
+            <h2>Un ejemplo de invernadero</h2>
+
+            <p>
+                Esta imagen muestra un ejemplo de cómo puede ser un
+                invernadero. Aunque no es el de nuestro colegio, nos permite
+                conocer otro espacio destinado al cultivo de plantas.
+            </p>
+
+            <img src="invernadero2.jpg" alt="Ejemplo de un invernadero">
+
+        </section>
+
+        <section id="cultivos">
+            <h2>¿Qué cultivamos?</h2>
+
+            <p>
+                Existen diferentes tipos de plantas que se pueden cultivar
+                en un invernadero. Cada una necesita determinados cuidados
+                para crecer de manera saludable.
+            </p>
+
+            <div class="contenedor-plantas">
+
+                <article class="tarjeta">
+                    <h3>Tomate</h3>
+                    <p>
+                        El tomate necesita luz, agua y nutrientes para
+                        desarrollarse. Es una hortaliza muy utilizada
+                        en distintas comidas.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Lechuga</h3>
+                    <p>
+                        La lechuga es una hortaliza de hojas que necesita
+                        un riego adecuado y condiciones favorables para crecer.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Plantas aromáticas</h3>
+                    <p>
+                        La menta, la albahaca y el perejil son plantas
+                        aromáticas que se utilizan en diferentes comidas.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="nota">
+                Estos son ejemplos de cultivos que pueden crecer en un
+                invernadero. Las plantas que se cultiven dependerán
+                de las posibilidades de nuestro colegio.
+            </p>
+        </section>
+
+        <section id="cuidados">
+            <h2>¿Qué necesitan las plantas?</h2>
+
+            <p>
+                Para crecer sanas, las plantas necesitan cuidados
+                que dependen de cada especie y de las condiciones
+                del ambiente.
+            </p>
+
+            <div class="contenedor-plantas">
+
+                <article class="tarjeta">
+                    <h3>Agua</h3>
+                    <p>
+                        Es necesaria para el crecimiento. Hay que regar
+                        las plantas sin excederse.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Luz solar</h3>
+                    <p>
+                        Las plantas utilizan la luz para realizar
+                        la fotosíntesis y producir su alimento.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Suelo</h3>
+                    <p>
+                        Un suelo adecuado proporciona nutrientes
+                        y permite que las raíces se desarrollen.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Ventilación</h3>
+                    <p>
+                        Renovar el aire ayuda a evitar el exceso
+                        de calor y humedad.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="actividades">
+            <h2>Actividades en el invernadero</h2>
+
+            <p>
+                En nuestro proyecto podemos realizar distintas actividades
+                para aprender de manera práctica.
+            </p>
+
+            <ul>
+                <li>Preparar la tierra.</li>
+                <li>Sembrar semillas.</li>
+                <li>Regar las plantas.</li>
+                <li>Observar su crecimiento.</li>
+                <li>Registrar los cambios de las plantas.</li>
+                <li>Mantener limpio y ordenado el espacio.</li>
+                <li>Trabajar en equipo.</li>
+            </ul>
+        </section>
+
+        <section id="ambiente">
+            <h2>El invernadero y el medioambiente</h2>
+
+            <p>
+                El invernadero nos ayuda a comprender la importancia
+                de cuidar los recursos naturales y respetar a los seres vivos.
+                También podemos aprender a utilizar el agua de manera
+                responsable y reducir los residuos.
+            </p>
+
+            <h3>¿Cómo podemos ayudar?</h3>
+
+            <ul>
+                <li>Evitar desperdiciar agua.</li>
+                <li>Reutilizar materiales cuando sea posible.</li>
+                <li>Mantener limpio el espacio de trabajo.</li>
+                <li>Respetar las plantas y los animales.</li>
+                <li>Aprender sobre la agricultura sostenible.</li>
+            </ul>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades sobre las plantas</h2>
+
+            <article class="curiosidad">
+                <h3>La fotosíntesis</h3>
+                <p>
+                    Las plantas utilizan la energía de la luz, el agua
+                    y el dióxido de carbono para producir azúcares.
+                    Durante este proceso liberan oxígeno.
+                </p>
+            </article>
+
+            <article class="curiosidad">
+                <h3>El crecimiento</h3>
+                <p>
+                    Cuando las condiciones son adecuadas, una semilla
+                    puede germinar y dar origen a una nueva planta.
+                </p>
+            </article>
+
+            <article class="curiosidad">
+                <h3>Los diferentes cuidados</h3>
+                <p>
+                    No todas las plantas necesitan la misma cantidad
+                    de agua, luz o espacio para crecer.
+                </p>
+            </article>
+        </section>
+
+        <section id="gustos">
+            <h2>Lo que me gusta de este proyecto</h2>
+
+            <p>
+                Este proyecto me parece interesante porque nos permite
+                aprender de manera práctica y colaborar con otras personas.
+            </p>
+
+            <ul>
+                <li>Ver cómo crecen las plantas.</li>
+                <li>Valorar la dedicación de estudiantes y autoridades.</li>
+                <li>Fomentar la colaboración entre los miembros de la comunidad escolar.</li>
+                <li>Aprender a cuidar la naturaleza.</li>
+                <li>Conocer más sobre la agricultura sostenible.</li>
+            </ul>
+        </section>
+
+        <section id="conclusion" class="conclusion">
+            <h2>Conclusión</h2>
+
+            <p>
+                El invernadero escolar es una oportunidad para aprender
+                sobre las plantas, la responsabilidad y el trabajo en equipo.
+                A través de su cuidado podemos comprender la importancia
+                de respetar la naturaleza.
+            </p>
+
+            <p>
+                También nos enseña que, con dedicación y colaboración,
+                podemos aprender cosas nuevas y cuidar mejor nuestro entorno.
+            </p>
+
+            <a class="boton" href="#inicio">Volver al inicio</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Invernadero del colegio</p>
+        <p>Realizado por Virginia Audenino</p>
+    </footer>
+
 </body>
 </html>
